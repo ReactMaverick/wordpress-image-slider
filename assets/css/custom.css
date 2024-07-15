@@ -1,0 +1,292 @@
+
+		.custom-2-3.tparrows {
+			cursor: pointer;
+			width: 63px;
+			height: 63px;
+			position: absolute;
+			display: block;
+			z-index: 100;
+			background: #fff;
+			-webkit-transition: all .35s cubic-bezier(.48, 1, .48, 1);
+			transition: all .35s cubic-bezier(.48, 1, .48, 1)
+		}
+
+		.custom-2-3.tparrows.rs-touchhover {
+			background: #c1e729
+		}
+
+		.custom-2-3.tparrows:before {
+			font-family: "fontAwesome";
+			font-size: 23px;
+			color: #1c1c1c;
+			display: block;
+			line-height: 63px;
+			text-align: center;
+			-webkit-transition: all .35s cubic-bezier(.48, 1, .48, 1);
+			transition: all .35s cubic-bezier(.48, 1, .48, 1)
+		}
+
+		.custom-2-3.tparrows.tp-leftarrow {
+			margin-left: -20px
+		}
+
+		.custom-2-3.tparrows.tp-leftarrow.rs-touchhover:before {
+			-webkit-transform: translate3d(-6px, 0, 0);
+			transform: translate3d(-6px, 0, 0)
+		}
+
+		.custom-2-3.tparrows.tp-rightarrow {
+			margin-right: -20px
+		}
+
+		.custom-2-3.tparrows.tp-leftarrow:before {
+			content: "\f053";
+			-webkit-transition: all 0.25s cubic-bezier(0.48, 1, 0.48, 1);
+			transition: all 0.25s cubic-bezier(0.48, 1, 0.48, 1);
+			margin-right: 4px
+		}
+
+		.custom-2-3.tparrows.tp-rightarrow:before {
+			content: "\f054";
+			-webkit-transition: all 0.25s cubic-bezier(0.48, 1, 0.48, 1);
+			transition: all 0.25s cubic-bezier(0.48, 1, 0.48, 1);
+			margin-left: 4px
+		}
+
+		.custom-2-3.tparrows.tp-rightarrow.rs-touchhover:before {
+			-webkit-transform: translate3d(6px, 0, 0);
+			transform: translate3d(6px, 0, 0)
+		}
+
+		.tp-tab,
+		.tp-thumb {
+			-webkit-transition: opacity 0.25s cubic-bezier(0.48, 1, 0.48, 1);
+			transition: opacity 0.25s cubic-bezier(0.48, 1, 0.48, 1)
+		}
+
+		.custom-2-3.tp-bullets {}
+
+		.custom-2-3.tp-bullets:before {
+			content: " ";
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: transparent;
+			padding: 10px;
+			margin-left: -10px;
+			margin-top: -10px;
+			box-sizing: content-box
+		}
+
+		.custom-2-3 .tp-bullet {
+			width: 12px;
+			height: 12px;
+			position: absolute;
+			background: #fff;
+			cursor: pointer;
+			border-radius: 2px;
+			box-sizing: content-box;
+			transition: all 0.2s ease-in-out;
+			-webkit-transition: all 0.2s ease-in-out
+		}
+
+		.custom-2-3 .tp-bullet.rs-touchhover {
+			background: #ffffff
+		}
+
+		.custom-2-3 .tp-bullet.selected {
+			background: #c1e729
+		}
+
+		.custom-2-3 .tp-bullet-image {}
+
+		.custom-2-3 .tp-bullet-title {}
+
+		.tp-tab,
+		.tp-thumb {
+			-webkit-transition: opacity .25s cubic-bezier(0.48, 1, 0.48, 1);
+			transition: opacity .25s cubic-bezier(0.48, 1, 0.48, 1);
+			opacity: 1
+		}
+
+		.tp-thumb {
+			border: 2px solid #929191
+		}
+
+		.tp-thumb.selected {
+			border: 2px solid #fff
+		}
+
+		.tp-thumb-hover-title {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-weight: 500;
+			color: #fff;
+			font-size: 19px;
+			width: 70%
+		}
+
+		.tp-thumb-shader {
+			width: 100%;
+			height: 100%;
+			display: block;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			background: rgba(0, 0, 0, 0.4);
+			opacity: 0;
+			-webkit-transition: opacity .4s cubic-bezier(0.48, 1, 0.48, 1);
+			transition: opacity .4s cubic-bezier(0.48, 1, 0.48, 1)
+		}
+
+		.tp-thumb-image:hover .tp-thumb-shader {
+			opacity: 1
+		}
+
+		.custom-2-3.tparrows {
+			cursor: pointer;
+			width: 63px;
+			height: 63px;
+			position: absolute;
+			display: block;
+			z-index: 100;
+			background: #fff;
+			-webkit-transition: all .35s cubic-bezier(.48, 1, .48, 1);
+			transition: all .35s cubic-bezier(.48, 1, .48, 1)
+		}
+
+		.custom-2-3.tparrows.rs-touchhover {
+			background: #c1e729
+		}
+
+		.custom-2-3.tparrows:before {
+			font-family: "fontAwesome";
+			font-size: 23px;
+			color: #1c1c1c;
+			display: block;
+			line-height: 63px;
+			text-align: center;
+			-webkit-transition: all .35s cubic-bezier(.48, 1, .48, 1);
+			transition: all .35s cubic-bezier(.48, 1, .48, 1)
+		}
+
+		.custom-2-3.tparrows.tp-leftarrow {
+			margin-left: -20px
+		}
+
+		.custom-2-3.tparrows.tp-leftarrow.rs-touchhover:before {
+			-webkit-transform: translate3d(-6px, 0, 0);
+			transform: translate3d(-6px, 0, 0)
+		}
+
+		.custom-2-3.tparrows.tp-rightarrow {
+			margin-right: -20px
+		}
+
+		.custom-2-3.tparrows.tp-leftarrow:before {
+			content: "\f053";
+			-webkit-transition: all 0.25s cubic-bezier(0.48, 1, 0.48, 1);
+			transition: all 0.25s cubic-bezier(0.48, 1, 0.48, 1);
+			margin-right: 4px
+		}
+
+		.custom-2-3.tparrows.tp-rightarrow:before {
+			content: "\f054";
+			-webkit-transition: all 0.25s cubic-bezier(0.48, 1, 0.48, 1);
+			transition: all 0.25s cubic-bezier(0.48, 1, 0.48, 1);
+			margin-left: 4px
+		}
+
+		.custom-2-3.tparrows.tp-rightarrow.rs-touchhover:before {
+			-webkit-transform: translate3d(6px, 0, 0);
+			transform: translate3d(6px, 0, 0)
+		}
+
+		.tp-tab,
+		.tp-thumb {
+			-webkit-transition: opacity 0.25s cubic-bezier(0.48, 1, 0.48, 1);
+			transition: opacity 0.25s cubic-bezier(0.48, 1, 0.48, 1)
+		}
+
+		.custom-2-3.tp-bullets {}
+
+		.custom-2-3.tp-bullets:before {
+			content: " ";
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: transparent;
+			padding: 10px;
+			margin-left: -10px;
+			margin-top: -10px;
+			box-sizing: content-box
+		}
+
+		.custom-2-3 .tp-bullet {
+			width: 12px;
+			height: 12px;
+			position: absolute;
+			background: #fff;
+			cursor: pointer;
+			border-radius: 2px;
+			box-sizing: content-box;
+			transition: all 0.2s ease-in-out;
+			-webkit-transition: all 0.2s ease-in-out
+		}
+
+		.custom-2-3 .tp-bullet.rs-touchhover {
+			background: #ffffff
+		}
+
+		.custom-2-3 .tp-bullet.selected {
+			background: #c1e729
+		}
+
+		.custom-2-3 .tp-bullet-image {}
+
+		.custom-2-3 .tp-bullet-title {}
+
+		.tp-tab,
+		.tp-thumb {
+			-webkit-transition: opacity .25s cubic-bezier(0.48, 1, 0.48, 1);
+			transition: opacity .25s cubic-bezier(0.48, 1, 0.48, 1);
+			opacity: 1
+		}
+
+		.tp-thumb {
+			border: 2px solid #929191
+		}
+
+		.tp-thumb.selected {
+			border: 2px solid #fff
+		}
+
+		.tp-thumb-hover-title {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-weight: 500;
+			color: #fff;
+			font-size: 19px;
+			width: 70%
+		}
+
+		.tp-thumb-shader {
+			width: 100%;
+			height: 100%;
+			display: block;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			background: rgba(0, 0, 0, 0.4);
+			opacity: 0;
+			-webkit-transition: opacity .4s cubic-bezier(0.48, 1, 0.48, 1);
+			transition: opacity .4s cubic-bezier(0.48, 1, 0.48, 1)
+		}
+
+		.tp-thumb-image:hover .tp-thumb-shader {
+			opacity: 1
+		}

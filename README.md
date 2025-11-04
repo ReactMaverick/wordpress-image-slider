@@ -35,3 +35,5 @@ To use the image slider in your posts or pages, simply add the following shortco
 
 ```markdown
 [image_slider]
+
+Powered by <a href="https://www.websadroit.com" target="_blank">Websadroit</a>
